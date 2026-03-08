@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENU - XMD | Next-Gen Bot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: radial-gradient(circle at top right, #1e293b, #0f172a); }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .neon-text { text-shadow: 0 0 10px rgba(56, 189, 248, 0.5); }
+    </style>
+</head>
+<body class="text-slate-200 min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-lg w-full">
+        <div class="flex justify-center mb-6">
+            <span class="bg-blue-500/10 border border-blue-500/20 text-blue-400 px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest flex items-center gap-2">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                </span>
+                Next-Gen Bot Platform (SENU MD)
+            </span>
+        </div>
+
+        <div class="text-center mb-10">
+            <h1 class="text-5xl font-extrabold text-white mb-3 tracking-tighter neon-text">SENU - <span class="text-blue-500">XMD</span></h1>
+            <p class="text-slate-400 text-lg font-medium leading-relaxed px-4">The Ultimate WhatsApp Bot Experience <br>
+            <span class="text-sm text-slate-500 font-normal mt-2 block">(Created by Senura MD)</span></p>
+        </div>
+
+        <div class="glass rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden text-center">
+            ${content}
+        </div>
+
+        <footer class="mt-12 text-center border-t border-slate-800 pt-6">
+            <p class="text-[11px] text-slate-500 font-bold uppercase tracking-[0.3em]">2026 © Created by Senura</p>
+        </footer>
+    </div>
+</body>
+</html>
